@@ -1,0 +1,201 @@
+\documentclass[11pt]{article}
+
+% ---------- Packages ----------
+\usepackage[margin=1in]{geometry}
+\usepackage{times}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+% ---------- Section formatting ----------
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+% ---------- Helper commands ----------
+\newcommand{\name}[1]{{\LARGE \bfseries #1}}
+\newcommand{\entry}[3]{%
+  \noindent\textbf{#1} \hfill #3\\
+  \textit{#2}\\[4pt]
+}
+
+\begin{document}
+
+% ================= HEADER =================
+\name{Caleb Leedy}\\[2pt]
+\href{mailto:leedy.caleb@gmail.com}{leedy.caleb@gmail.com} \\
+\href{https://github.com/calebleedy}{github.com/calebleedy}
+
+\vspace{6pt}
+
+% ================= INTERESTS =================
+\section*{Interests}
+The goal of my career is to help people make better decisions under uncertainty.
+I believe that statistics offers a useful framework for incorporating additional
+information to make more scientific decisions while understanding the limits of
+our knowledge. In graduate school, I created methods to combine data sources from
+probability and non-probability surveys. I am interested in overcoming real-world
+difficulties with data and I am excited to partner with businesses to help clients
+find solutions to real data problems.
+
+% ================= POSITIONS =================
+\section*{Professional Experience}
+\entry{Postdoctoral Researcher in Statistics}{Ottawa, Canada}{September 2025 --
+August 2027}
+\vspace{-16pt}
+\begin{itemize}[leftmargin=2em,itemsep=-4pt,topsep=2pt]
+  \item MITACS fellowship supervised by David Haziza and Mehdi Dagdoug. 
+  \item Co-sponsered by the Bank of Canada.
+\end{itemize}
+\vspace{6pt}
+
+\entry{Research Assistant, Center for Survey Statistics and Methodology}{Ames, Iowa}{January 2019 -- August 2025}
+%\vspace{-4pt}
+%\begin{itemize}[leftmargin=2em,itemsep=-4pt,topsep=2pt]
+%  \item Evaluated land survey imputation methods between states.
+%  \item Designed a new method to combine different satellite information.
+%  \item Analyzed imputation procedures for the National Resources Inventory project.
+%  \item Built a statistical model to optimize estimation of a multiyear survey sample.
+%\end{itemize}
+%\vspace{6pt}
+
+\entry{Consultant, CIC Research}{San Diego, California}{March 2022 -- February 2025}
+%\vspace{-4pt}
+%\begin{itemize}[leftmargin=2em,itemsep=-4pt,topsep=2pt]
+%  \item Diagnosed variance estimation procedures.
+%  \item Changed variance estimation procedure to be a ratio estimator.
+%  \item Created a methodology for ratio estimation with missing data.
+%\end{itemize}
+%\vspace{6pt}
+
+\entry{Statistics and Data Science Intern, Westat}{Rockville, Maryland}{May 2023 -- August 2023}
+%\vspace{-4pt}
+%\begin{itemize}[leftmargin=2em,itemsep=-4pt,topsep=2pt]
+%  \item Advised a proposal team about privacy preservation of individual health records.
+%  \item Presented a recommendation for Westat's privacy preserving record linkage capabilities.
+%  \item Analyzed an updated imputation procedure to assess quality.
+%\end{itemize}
+%\vspace{6pt}
+
+\entry{Research Assistant, Federal Reserve Board of Governors}{Washington, DC}{June 2016 -- July 2018}
+%\vspace{-4pt}
+%\begin{itemize}[leftmargin=2em,itemsep=-4pt,topsep=2pt]
+%  \item Analyzed different measures of high-frequency trading.
+%  \item Gathered and cleaned data to analyze transparency effects on the corporate bond market.
+%  \item Classified corporate bonds by trading characteristics.
+%  \item Maintained a database on futures margins.
+%\end{itemize}
+
+% ================= EDUCATION =================
+\section*{Education}
+\entry{Ph.D. in Statistics, Iowa State University}{Ames, Iowa}{August 2018 -- August 2025}
+%\vspace{-4pt}
+%\begin{itemize}[leftmargin=2em,itemsep=2pt,topsep=2pt]
+%  \item Major Professor: Jae Kwang Kim.
+%  \item GPA: 3.9 / 4.0.
+%\end{itemize}
+%\vspace{6pt}
+
+\entry{Bachelor of Arts, Grinnell College}{Grinnell, Iowa}{August 2013 -- May 2016}
+%\vspace{-4pt}
+%\begin{itemize}[leftmargin=2em,itemsep=2pt,topsep=2pt]
+%  \item Double Major: Mathematics (Honors) and Economics (Honors).
+%  \item GPA: 3.9 / 4.0.
+%\end{itemize}
+
+% ================= PUBLICATIONS =================
+\section*{Publications \& Manuscripts}
+\begin{itemize}[leftmargin=2.2em,itemsep=6pt]
+%  \item[3.] \textbf{Leedy, C.}, Kim, J.K. \textit{Debiased Calibration for Generalized Two-Phase Sampling.} Iowa State University Ph.D. Thesis, 2025.
+
+  \item[2.] \textbf{Leedy, C.}, Kim, J.K. (2026) \textit{Data Integration Using Propensity Score Weighting Under Missing at Random.} Submitted. 
+
+  \item[1.] Blanchard, J.D., \textbf{Leedy, C.}, Wu, Y. (2020). \textit{On rank awareness, thresholding, and MUSIC for joint sparse recovery.} Applied and Computational Harmonic Analysis, 48(1), 482--495.
+\end{itemize}
+
+% ================= TALKS =================
+\section*{Presentations}
+\entry{Small area estimation with machine learning algorithms}{Invited Talk, SAE
+2026, Bucharest, Romania}{June 2026}
+\entry{Nonparametric methods within area-level models}{Invited Talk, SSC Annual
+Meeting, Hamilton, Canada}{June 2026}
+\entry{Debiased Calibration for Generalized Two-Phase Sampling}{Poster, Joint Statistical Meetings, Portland, USA (SRMS Poster Award)}{August 2024}
+\entry{Debiased Nonparametric Regression in Two-Phase Sampling}{Invited Talk, CANSSI-CRT Workshop on Modern Methods in Survey Sampling, Ottawa, Canada}{July 2024}
+
+% ================= TEACHING =================
+\section*{Teaching}
+\entry{STAT 101: Principles of Statistics}{Instructor, Iowa State University --- Ames, Iowa}{Fall 2023}
+%\vspace{-4pt}
+%\begin{itemize}[leftmargin=2em,itemsep=2pt,topsep=2pt]
+%  \item Taught lectures and created and graded exams for 87 students.
+%\end{itemize}
+%\vspace{6pt}
+
+\entry{STAT 473/573: Introduction to Survey Sampling}{Teaching Assistant, Iowa State University --- Ames, Iowa}{Spring 2020 (F2F) / 2021 (online)}
+% Previously STAT 421
+%\vspace{-4pt}
+%\begin{itemize}[leftmargin=2em,itemsep=2pt,topsep=2pt]
+%  \item Created lab materials to differentiate assignments between graduate and undergraduate students.
+%  \item Taught and graded 50 students (Spring 2020) and 40 students (Spring 2021) in lab sections.
+%\end{itemize}
+%\vspace{6pt}
+
+\entry{STAT 101: Principles of Statistics}{Teaching Assistant, Iowa State University --- Ames, Iowa}{Fall 2018}
+%\vspace{-4pt}
+%\begin{itemize}[leftmargin=2em,itemsep=2pt,topsep=2pt]
+%  \item Taught and graded 41 students in lab.
+%\end{itemize}
+%\vspace{6pt}
+
+\entry{STAT 326: Introduction to Business Statistics II}{Teaching Assistant, Iowa State University --- Ames, Iowa}{Fall 2018}
+%\vspace{-4pt}
+%\begin{itemize}[leftmargin=2em,itemsep=2pt,topsep=2pt]
+%  \item Taught and graded 46 students in lab.
+%\end{itemize}
+%\vspace{6pt}
+
+\entry{Grinnell Experimental College: Data Analysis with Python}{Co-Instructor and Co-Course Creator, Grinnell, Iowa}{Spring 2015}
+\entry{Grinnell Experimental College: Introduction to Professional Typesetting with \LaTeX}{Co-Instructor and Co-Course Creator, Grinnell, Iowa}{Fall 2014}
+
+% ================= SERVICES =================
+\section*{Services}
+\entry{Statistics Faculty Committee}{Graduate Student Representative, Iowa State University --- Ames, Iowa}{Fall 2023}
+\entry{Causal Inference Working Group}{Co-Founder and Organizer, Iowa State University --- Ames, Iowa}{Spring 2023 -- Spring 2024}
+%\vspace{-4pt}
+%\begin{itemize}[leftmargin=2em,itemsep=2pt,topsep=2pt]
+%  \item Established an inter-departmental group of students and faculty developing research in the field of causal inference.
+%  \item Created and maintained the GitHub repository \texttt{calebleedy/ISU-Causal}.
+%\end{itemize}
+%\vspace{6pt}
+
+\entry{Faculty Panel: How to Read a Statistics Paper}{Founder and Organizer, Iowa State University --- Ames, Iowa}{Fall 2022}
+%\vspace{-4pt}
+%\begin{itemize}[leftmargin=2em,itemsep=2pt,topsep=2pt]
+%  \item Initiated, organized, and moderated a panel of five faculty to share their views about how to read statistics papers.
+%\end{itemize}
+%\vspace{6pt}
+
+\entry{Computational Advisory Committee}{Committee Member, Iowa State University --- Ames, Iowa}{Fall 2018, Spring 2019}
+
+% ================= AWARDS =================
+\section*{Awards}
+\entry{Non-SPEED Session Poster Award}{Survey Research Methods Section --- Portland, OR}{August 2024}
+\entry{Teaching Excellence Award}{Iowa State University Graduate College --- Ames, Iowa}{Spring 2024}
+\entry{Sampson Scholarship}{Iowa State Statistics Department --- Ames, Iowa}{Fall 2019}
+\entry{Fuller Scholarship}{Iowa State Statistics Department --- Ames, Iowa}{Fall 2018}
+
+% ================= REFERENCES =================
+\section*{References}
+\entry{David Haziza --- \href{mailto:dhaziza@uottawa.ca}{dhaziza@uottawa.ca}}{Professor, University of Ottawa}{}
+\entry{Mehdi Dagdoug --- \href{mailto:mehdi.dagdoug@mcgill.ca}{mehdi.dagdoug@mcgill.ca}}{Assitant Professor, MgGill University}{}
+\entry{Heng Chen --- \href{mailto:hchen@bank-banque-canada.ca}{hchen@bank-banque-canada.ca}}{Economist, Bank of Canada}{}
+\entry{Jae Kwang Kim --- \href{mailto:jkim@iastate.edu}{jkim@iastate.edu}}{Ph.D. Advisor, Professor, Iowa State University}{}
+
+\vspace{12pt}
+\footnotesize\textit{Last updated: July 30, 2026}
+
+\end{document}

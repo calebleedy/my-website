@@ -1,0 +1,33 @@
+<% for (const item of items) { %>
+  <div class="listing-item research-listing-item">
+    <div class="listing-title">
+      <a href="<%= item.path %>"><%= item.title %></a>
+    </div>
+    <div class="listing-subtitle">
+      <%= item.description %>
+    </div>
+    <div class="listing-meta">
+      <span class="listing-date"><%= item.date %></span>
+      <span class="listing-authors"><%= Array.isArray(item.author) ? item.author.map(a => (a && a.name) ? a.name : a).join(', ') : item.author %></span>
+      <% if (item.categories) { %>
+        <div class="listing-categories">
+          <% for (const category of item.categories) { %>
+            <span class="badge rounded-pill text-bg-light"><%= category %></span>
+          <% } %>
+        </div>
+      <% } %>
+    </div>
+    <div class="listing-links">
+      <% if (item['link-external']) { %>
+        <a href="<%= item['link-external'] %>" target="_blank" class="btn btn-outline-primary btn-sm">
+          <i class="bi bi-box-arrow-up-right"></i> Journal/Preprint
+        </a>
+      <% } %>
+      <% if (item['link-pdf']) { %>
+        <a href="<%= item['link-pdf'] %>" target="_blank" class="btn btn-outline-secondary btn-sm ms-2">
+          <i class="bi bi-file-earmark-pdf"></i> PDF
+        </a>
+      <% } %>
+      </div>
+  </div>
+<% } %>

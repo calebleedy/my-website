@@ -1,0 +1,40 @@
+---
+title: "On the Efficacy of Large Language Models in Scientific Discovery"
+description: "An in-depth analysis of current capabilities and limitations of LLMs when applied to complex scientific problems, exploring their potential for hypothesis generation and data interpretation."
+author:
+  - name: "Your Name"
+    orcid: "0000-0000-0000-0000" # Optional: your ORCID ID
+  - name: "Co-author Name"
+    # orcid: "..."
+date: "2024-11-15"
+categories:
+  - Artificial Intelligence
+  - Machine Learning
+  - Scientific Computing
+  - Natural Language Processing
+link-external: "https://example.com/my-first-paper-journal" # Link to journal page or preprint
+link-pdf: "https://example.com/my-first-paper.pdf" # Link to the PDF of the paper
+# You can add more custom fields as needed
+# journal: "Nature Communications"
+# volume: "10"
+# issue: "1"
+# pages: "1234-1245"
+# doi: "10.1038/s41467-024-54321-x"
+# arxiv: "2411.01234"
+---
+
+This is the content of your research article. You can include abstract, introduction, methods, results, discussions, and a bibliography, just like any other Quarto document.
+
+### Abstract
+
+This paper explores the emerging role of large language models (LLMs) in accelerating scientific discovery...
+
+### Introduction
+
+...
+
+### Conclusion
+
+...
+
+## References
