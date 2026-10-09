@@ -1,14 +1,21 @@
 ---
-title: "My Research"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Home"
 ---
 
+<div class="site-header">
+<img src="CL_headshot.jpeg" alt="Photo of Caleb Leedy">
+<div>
+# Caleb Leedy
+<p class="tagline">Postdoctoral Research Fellow · Ottawa, Canada</p>
+</div>
+</div>
 
+<p class="contact-links">
+<a href="mailto:leedy.caleb@gmail.com">Email</a>
+<a href="https://github.com/calebleedy">GitHub</a>
+<a href="files/CalebLeedy_CV.pdf">Download CV (PDF)</a>
+</p>
+
+I am a postdoctoral research fellow at the University of Ottawa working with
+David Haziza and Mehdi Dagdoug. Previously, I obtained my Ph.D.
+in Statistics at Iowa State University under the supervision of Jae-Kwang Kim.

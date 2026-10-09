@@ -1,0 +1,12 @@
+---
+title: "Teaching"
+---
+
+<ul class="cv-list">
+<li><span class="cv-entry-title">STAT 101: Principles of Statistics</span><span class="cv-entry-meta">Instructor, Iowa State University, Ames, Iowa — Fall 2023</span></li>
+<li><span class="cv-entry-title">STAT 473/573: Introduction to Survey Sampling</span><span class="cv-entry-meta">Teaching Assistant, Iowa State University, Ames, Iowa — Spring 2020, Spring 2021</span></li>
+<li><span class="cv-entry-title">STAT 101: Principles of Statistics</span><span class="cv-entry-meta">Teaching Assistant, Iowa State University, Ames, Iowa — Fall 2018</span></li>
+<li><span class="cv-entry-title">STAT 326: Introduction to Business Statistics II</span><span class="cv-entry-meta">Teaching Assistant, Iowa State University, Ames, Iowa — Fall 2018</span></li>
+<li><span class="cv-entry-title">Grinnell Experimental College: Data Analysis with Python</span><span class="cv-entry-meta">Co-Instructor and Co-Course Creator, Grinnell College, Grinnell, Iowa — Spring 2015</span></li>
+<li><span class="cv-entry-title">Grinnell Experimental College: Introduction to Professional Typesetting with LaTeX</span><span class="cv-entry-meta">Co-Instructor and Co-Course Creator, Grinnell College, Grinnell, Iowa — Fall 2014</span></li>
+</ul>

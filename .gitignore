@@ -2,3 +2,5 @@ venv/
 _site/
 .quarto/
 _freeze/
+
+/.quarto/

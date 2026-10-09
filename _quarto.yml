@@ -2,51 +2,28 @@ project:
   type: website
 
 website:
-  title: "Caleb Leedy" # Your site title
-  site-url: "https://example.com" # Essential for RSS feed
-  description: "Explorations in data science, machine learning, and computational physics."
+  title: "Caleb Leedy"
+  description: "Statistician — survey sampling, data integration, and causal inference."
   navbar:
-    background: "#f8f8f8" # Light background for the navbar
+    background: "#ffffff"
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
-      - href: research.html
+      - href: research.qmd
         text: Research
-      # You might add a link to categories or tags page later
+      - href: teaching.qmd
+        text: Teaching
   page-footer:
-    left: "© {{< current-year >}} Your Name"
+    left: "© 2026 Caleb Leedy"
     right:
       - icon: github
         href: https://github.com/calebleedy
-      - icon: twitter
-        href: https://twitter.com/yourhandle # Or Mastodon, LinkedIn etc.
-  cookie-consent: true # Good for privacy compliance
-
-blog:
-  # This configures how your posts are listed on the home page
-  listing:
-    contents: posts # Look for posts in the 'posts' directory
-    sort: "date desc" # Sort by date, newest first
-    type: default # Default blog-style listing
-    categories: true # Show categories for posts
-    sort-ui: false # Hide sort/filter UI for a cleaner look
-    filter-ui: false # Hide filter UI
-    fields: [image, date, title, description, categories, author] # Fields to display in listing
-    page-size: 10 # Number of posts per page
-    feed: true # Generate an RSS feed
+      - icon: envelope
+        href: mailto:leedy.caleb@gmail.com
 
 format:
   html:
-    theme:
-      light: [cosmo, _custom.scss] # Start with 'cosmo' (clean) and add our custom styles
-      # For a dark mode, you'd specify a dark theme and another SCSS file
-      # dark: [darkly, _custom-dark.scss]
-    toc: true # Table of contents for individual posts
-    toc-depth: 3
-    code-block-border-left: "#663399" # A subtle border for code blocks
-    code-tools: true # Enable copy button for code blocks
+    theme: [_custom.scss]
+    toc: false
     grid:
-      body-width: 900px # Sets the main content width for better readability (similar to Distill)
-      margin-width: 250px # Space for margin content (figures, side notes)
+      body-width: 800px

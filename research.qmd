@@ -1,0 +1,23 @@
+---
+title: "Research"
+---
+
+My research interest lies in the intersection of the theory of survey sampling
+and statistical learning. I aim to develop rigorous statistical methods so that
+researchers increase the precision of their analysis by integrating auxiliary
+data sets, incorporating machine learning algorithms or interacting with modern
+language models.
+
+## Publications
+
+1. Leedy, C., Kim, J.K. (2026). *Data Integration Using Propensity Score Weighting Under Missing at Random.* Submitted.
+2. Blanchard, J.D., Leedy, C., Wu, Y. (2020). *On rank awareness, thresholding, and MUSIC for joint sparse recovery.* Applied and Computational Harmonic Analysis, 48(1), 482–495.
+
+## Talks
+
+<ul class="cv-list">
+<li><span class="cv-entry-title">Small area estimation with machine learning algorithms</span><span class="cv-entry-meta">Invited Talk, SAE 2026, Bucharest, Romania — June 2026</span></li>
+<li><span class="cv-entry-title">Nonparametric methods within area-level models</span><span class="cv-entry-meta">Invited Talk, SSC Annual Meeting, Hamilton, Canada — June 2026</span></li>
+<li><span class="cv-entry-title">Debiased Calibration for Generalized Two-Phase Sampling</span><span class="cv-entry-meta">Poster, Joint Statistical Meetings, Portland, USA (SRMS Poster Award) — August 2024</span></li>
+<li><span class="cv-entry-title">Debiased Nonparametric Regression in Two-Phase Sampling</span><span class="cv-entry-meta">Invited Talk, CANSSI-CRT Workshop on Modern Methods in Survey Sampling, Ottawa, Canada — July 2024</span></li>
+</ul>
