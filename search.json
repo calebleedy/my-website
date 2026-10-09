@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "STAT 101: Principles of StatisticsInstructor, Iowa State University, Ames, Iowa — Fall 2023\n\n\nSTAT 473/573: Introduction to Survey SamplingTeaching Assistant, Iowa State University, Ames, Iowa — Spring 2020, Spring 2021\n\n\nSTAT 101: Principles of StatisticsTeaching Assistant, Iowa State University, Ames, Iowa — Fall 2018\n\n\nSTAT 326: Introduction to Business Statistics IITeaching Assistant, Iowa State University, Ames, Iowa — Fall 2018\n\n\nGrinnell Experimental College: Data Analysis with PythonCo-Instructor and Co-Course Creator, Grinnell College, Grinnell, Iowa — Spring 2015\n\n\nGrinnell Experimental College: Introduction to Professional Typesetting with LaTeXCo-Instructor and Co-Course Creator, Grinnell College, Grinnell, Iowa — Fall 2014"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Caleb Leedy\n\nPostdoctoral Research Fellow · Ottawa, Canada\n\n\n\n\nEmail GitHub Download CV (PDF)\n\nI am a postdoctoral research fellow at the University of Ottawa working with David Haziza and Mehdi Dagdoug. Previously, I obtained my Ph.D. in Statistics at Iowa State University under the supervision of Jae-Kwang Kim."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research interest lies in the intersection of the theory of survey sampling and statistical learning. I aim to develop rigorous statistical methods so that researchers increase the precision of their analysis by integrating auxiliary data sets, incorporating machine learning algorithms or interacting with modern language models."
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nLeedy, C., Kim, J.K. (2026). Data Integration Using Propensity Score Weighting Under Missing at Random. Submitted.\nBlanchard, J.D., Leedy, C., Wu, Y. (2020). On rank awareness, thresholding, and MUSIC for joint sparse recovery. Applied and Computational Harmonic Analysis, 48(1), 482–495."
+  },
+  {
+    "objectID": "research.html#talks",
+    "href": "research.html#talks",
+    "title": "Research",
+    "section": "Talks",
+    "text": "Talks\n\n\nSmall area estimation with machine learning algorithmsInvited Talk, SAE 2026, Bucharest, Romania — June 2026\n\n\nNonparametric methods within area-level modelsInvited Talk, SSC Annual Meeting, Hamilton, Canada — June 2026\n\n\nDebiased Calibration for Generalized Two-Phase SamplingPoster, Joint Statistical Meetings, Portland, USA (SRMS Poster Award) — August 2024\n\n\nDebiased Nonparametric Regression in Two-Phase SamplingInvited Talk, CANSSI-CRT Workshop on Modern Methods in Survey Sampling, Ottawa, Canada — July 2024"
+  }
+]
